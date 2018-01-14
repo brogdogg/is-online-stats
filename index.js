@@ -46,8 +46,7 @@ const cli = meow(`
 // Number of iterations to try, -1 will cause it to continually run
 const iterations = cli.flags.iterations;
 // Amount of time to wait between checks
-//const waitTimeout = cli.flags.wait * 1000 * 60;
-const waitTimeout = cli.flags.wait * 1000;
+const waitTimeout = cli.flags.wait * 1000 * 60;
 // Logfile for keeping track
 let logFile = -1;
 
