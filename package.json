@@ -1,0 +1,20 @@
+{
+  "name": "is-online-stats",
+  "version": "1.0.0",
+  "description": "Continually checks to see online, reporting stats for availability",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "internet",
+    "online",
+    "checker"
+  ],
+  "author": "Michael Brogdon",
+  "license": "ISC",
+  "dependencies": {
+    "is-online": "^7.0.0",
+    "meow": "^4.0.0"
+  }
+}
